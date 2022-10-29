@@ -8,7 +8,7 @@ function App() {
   return (
     <BrowserRouter className="body">
      <NavBar/>
-      {/* <Home/> */}
+     
      <Routes> 
        <Route index element = {<Home/>} /> 
        <Route path="services" element = {<Services/>} />

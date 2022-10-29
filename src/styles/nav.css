@@ -53,6 +53,9 @@
     margin-left: 10px;
 }
 .logo-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 0rem !important;
     margin-left: 20px;
     font-weight: 800;
@@ -61,6 +64,8 @@
 .nav-btn{
     background-color: blue;
     color: white;
+    height: 30px;
+    width: 110px;
     font-weight: 800;
     border-radius: 15px 15px 15px 15px;
 }
