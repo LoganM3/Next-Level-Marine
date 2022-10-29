@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.home-container{
+    background-image: url('/public/invincible-boats.jpeg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
+    height: 600px;
+
+    border: solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.inner-home-containter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black;
+}
