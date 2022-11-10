@@ -5,6 +5,72 @@
     display: flex;
     align-items: center;
     justify-content: center;
+   
 
    
 }
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   }
+   
+   
+   
+   .form-container{
+       background:rgba(0, 0, 0, 0.774);
+       height: 300px;
+       width: 500px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       justify-content: space-evenly;
+       margin-bottom: 10px;
+       margin-top: 10px;
+       border-radius: 15px;
+   }
+   
+   @media only screen  and (max-width:800px){
+       .form-container{
+         display: flex;
+         flex-direction: column;
+         width: 100vw;
+       }
+     }
+   
+   .social-container{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-evenly;
+   }
+   
+   .LinkedIn{
+       color: white;
+   }
+   
+   .github{
+       color:white;
+   }
+   
+   .input{
+       height: 40px;
+       
+   }
+   
+   .input-box{
+       height: 30px;
+       width: 300px;
+   }
+   
+   .message-box{
+       height: 100px;
+       width: 300px;
+   }
+
+   .info-container{
+    display: flex;
+    flex-direction: column;
+   }

@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
+import { faGithub, faLinkedin,} from "@fortawesome/free-brands-svg-icons"
+import {faPhone, faEnvelope} from "@fortawesome/free-solid-svg-icons"
 import { useState } from 'react'
 import emailjs from '@emailjs/browser';
 import '../styles/Contact.css'
@@ -38,10 +39,9 @@ function Contact(){
 
 
     return(
-        <div className="contact-container">
           <div className="contact-container">
             <div className="title-container">
-                <h1>Lets Connect</h1>
+                <h1>Request a quote</h1>
             </div>
 
             <div className="form-container">
@@ -78,7 +78,7 @@ function Contact(){
                     <div className="message-input">
                         <textarea className='message-box'
                             type='text'
-                            placeholder="You're message here"
+                            placeholder="Service required and boat size"
                             name='Message'
                             required='true'
                             value={form.Message}
@@ -89,70 +89,27 @@ function Contact(){
                         <button
                          className=''
                          type="submit">
-                         Send a message
+                         Get Quote
                         </button>
                      </div>
 
                 </form>
             </div>
-        </div> <div className="contact-container">
-            <div className="title-container">
-                <h1>Lets Connect</h1>
-            </div>
+            <div className="info-container">
+                <h1>Contact Info</h1>
+                <a>
+                 <FontAwesomeIcon icon={faPhone} size="2x"/>
+                    (561)-301-6062
+                </a>
+                <a>
+                <FontAwesomeIcon icon={faEnvelope} size="2x"/>
+                    NextLevelMarine@gmail.com
+                </a>
+              
 
-            <div className="form-container">
-                <div className="social-container">
-                     <a className="LinkedIn" href ="https://www.linkedin.com/in/logan-mccalley-90607010b/" target="_blank">
-                      <FontAwesomeIcon icon={faLinkedin} size="2x"/>
-                     </a>
-                     <a className="github" href ="https://www.github.com/LoganM3" target="_blank">
-                      <FontAwesomeIcon icon={faGithub} size="2x"/>
-                     </a>
-                </div>
-                <form name="contact-form" ref={form} onSubmit={sendEmail}>
-                    <div className="input">
-                        <input className='input-box'
-                            type='text'
-                            placeholder="Name"
-                            name="name"
-                            required='true'
-                            value={form.name}
-                            onChange={updateForm}
-                            />
-                    </div>
-                    <div className="input">
-                        <input className='input-box'
-                            type='text'
-                            placeholder="Email"
-                            name="Email"
-                            required='true'
-                            value={form.Email}
-                            onChange={updateForm}
-                            />
-                    </div>
-                   
-                    <div className="message-input">
-                        <textarea className='message-box'
-                            type='text'
-                            placeholder="You're message here"
-                            name='Message'
-                            required='true'
-                            value={form.Message}
-                            onChange={updateForm}
-                            />
-                    </div>
-                    <div className='btn-container'>
-                        <button
-                         className=''
-                         type="submit">
-                         Send a message
-                        </button>
-                     </div>
-
-                </form>
             </div>
-        </div>
-        </div>
+        </div> 
+    
     )
 }
 
