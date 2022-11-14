@@ -14,21 +14,34 @@ export default function Services(){
             <Card className='service-card' style={{ width: '18rem' }}>
               <Card.Img  className='card-img' variant="top" src="https://cdn-yotpo-images-production.yotpo.com/instagram/50/17854826498542250/medium.jpg" />
                 <Card.Body>
-                  <Card.Title className='title'>Audio</Card.Title>
+                  <Card.Title className='title'>Speakers</Card.Title>
                     <Card.Text>
                       Some quick example text to build on the card title and make up the
                       bulk of the card's content.
                     </Card.Text>
+                    <Button>View all</Button>
                  </Card.Body>
             </Card>
             <Card className='service-card' style={{ width: '18rem' }}>
               <Card.Img  className='card-img' variant="top" src="https://www.thehulltruth.com/attachment.php?attachmentid=772309&stc=1&d=1484569845" />
                 <Card.Body>
-                  <Card.Title className='title'>Rewire</Card.Title>
+                  <Card.Title className='title'>Amps</Card.Title>
                     <Card.Text>
                       Some quick example text to build on the card title and make up the
                       bulk of the card's content.
                     </Card.Text>
+                    <Button>View all</Button>
+                 </Card.Body>
+            </Card>
+            <Card className='service-card' style={{ width: '18rem' }}>
+              <Card.Img  className='card-img' variant="top" src="https://www.thehulltruth.com/attachment.php?attachmentid=772309&stc=1&d=1484569845" />
+                <Card.Body>
+                  <Card.Title className='title'>GPS</Card.Title>
+                    <Card.Text>
+                      Some quick example text to build on the card title and make up the
+                      bulk of the card's content.
+                    </Card.Text>
+                    <Button>View all</Button>
                  </Card.Body>
             </Card>
             </div>
