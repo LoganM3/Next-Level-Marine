@@ -1,0 +1,24 @@
+.vhfs-container{
+    border: solid black;
+    height: 200px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.antennas-container{
+    border: solid black;
+    height: 200px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eberbs-container{
+    border: solid black;
+    height: 200px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

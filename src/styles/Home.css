@@ -29,9 +29,75 @@
     border: solid black;
 }
 
+
+.cards{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
 .audio{
     height: 250px;
     width: 250px;
     border: solid black;
-    background-color: black;
+    background-image: url('/public/speakers.webp');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
+
+    
+}
+
+.lighting-card{
+    height: 250px;
+    width: 250px;
+    border: solid black;
+    background-image: url('/public/speakers.webp');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
+}
+.nav-card{
+    height: 250px;
+    width: 250px;
+    border: solid black;
+    background-image: url('/public/speakers.webp');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
+}
+.com-card{
+    height: 250px;
+    width: 250px;
+    border: solid black;
+    background-image: url('/public/speakers.webp');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
+}
+.sonar-card{
+    height: 250px;
+    width: 250px;
+    border: solid black;
+    background-image: url('/public/speakers.webp');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
+}
+.radar-card{
+    height: 250px;
+    width: 250px;
+    border: solid black;
+    background-image: url('/public/speakers.webp');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
 }

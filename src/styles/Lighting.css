@@ -1,0 +1,18 @@
+
+
+.lumitec-container{
+    border: solid black;
+    height: 200px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lumishore-container{
+    border: solid black;
+    height: 200px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
