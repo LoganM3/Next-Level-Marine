@@ -6,9 +6,11 @@ function Lighting(){
         <div>
            <div className='lumitec-container'>
                 <h1>Lumitec</h1>
+                <button>View All</button>
             </div>
             <div className='lumishore-container'>
                 <h1>Lumishore</h1>
+                <button>View All</button>
             </div>
 
         </div>
