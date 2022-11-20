@@ -46,9 +46,7 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;;
-
-    
+    background-size: cover;
 }
 
 .lighting-card{
@@ -83,7 +81,7 @@
 }
 .sonar-card{
     height: 250px;
-    width: 250px;
+    width: 609px;
     border: solid black;
     background-image: url('/public/speakers.webp');
     -webkit-background-size: cover;
@@ -93,7 +91,7 @@
 }
 .radar-card{
     height: 250px;
-    width: 250px;
+    width: 609px;
     border: solid black;
     background-image: url('/public/speakers.webp');
     -webkit-background-size: cover;

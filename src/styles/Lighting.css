@@ -2,7 +2,7 @@
 
 .lumitec-container{
     border: solid black;
-    height: 200px;
+    height: 400px;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -11,7 +11,7 @@
 }
 .lumishore-container{
     border: solid black;
-    height: 200px;
+    height: 400px;
     width: 100vw;
     display: flex;
     justify-content: center;
