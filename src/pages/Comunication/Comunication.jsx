@@ -18,15 +18,15 @@ function Comunication(){
 
     return(
         <div>
-            <div className='vhfs-container'>
+            <div className='comunication-companys' id='vhfs'>
                 <h1>VHFS</h1>
                 <button onClick={navigateToVHFS}>View All</button>
             </div>
-            <div className='antennas-container'>
+            <div className='comunication-companys' id='antennas'>
                 <h1>Antennas</h1>
                 <button onClick={navigateToAntennas}>View All</button>
             </div>
-            <div className='eberbs-container'>
+            <div className='comunication-companys' id='eberes'>
                 <h1>Eberes</h1>
                 <button onClick={navigateToEberes}>View All</button>
             </div>

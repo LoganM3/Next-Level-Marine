@@ -1,27 +1,13 @@
-.vhfs-container{
+.comunication-companys{
     border: solid black;
-    height: 200px;
+    height: 265px;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.antennas-container{
-    border: solid black;
-    height: 200px;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.eberbs-container{
-    border: solid black;
-    height: 200px;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+
+#vhfs{
+    background-color: aliceblue;
 }

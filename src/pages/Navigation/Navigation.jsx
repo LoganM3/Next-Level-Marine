@@ -20,19 +20,19 @@ function Navigation(){
 
     return(
         <div>
-             <div className='garmin-container'>
+             <div className='nav-companys' id='garmin'>
                 <h1>Garmin</h1>
                 <button onClick={navigateToGarmin}>View All</button>
             </div>
-            <div className='simrad-container'>
+            <div className='nav-companys' id='simrad'>
                 <h1>Simrad</h1>
                 <button onClick={navigateToSimrad}>View All</button>
             </div>
-            <div className='furuno-container'>
+            <div className='nav-companys' id='simrad'>
                 <h1>Furuno</h1>
                 <button onClick={navigateToFuruno}>View All</button>
             </div>
-            <div className='raymarine-container'>
+            <div className='nav-companys' id='raymarine'>
                 <h1>RayMarine</h1>
                 <button onClick={navigateToRayMarine}>View All</button>
             </div>

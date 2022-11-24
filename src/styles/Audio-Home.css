@@ -3,7 +3,7 @@
     border: solid black;
 }
 
-.jl-container{
+.audio-companys{
     border: solid black;
     height: 200px;
     width: 100vw;
@@ -12,39 +12,7 @@
     align-items: center;
     flex-direction: column;
 }
-.fusion-container{
-    border: solid black;
-    height: 200px;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.wetsound-container{
-    border: solid black;
-    height: 200px;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.roswell-container{
-    border: solid black;
-    height: 200px;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.rockford-container{
-    border: solid black;
-    height: 200px;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+
+#JL{
+    background-color: aqua;
 }

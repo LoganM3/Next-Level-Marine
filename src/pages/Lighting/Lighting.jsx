@@ -14,11 +14,11 @@ function Lighting(){
 
     return(
         <div>
-           <div className='lumitec-container'>
+           <div className='lighting-companys' id='lumitec'>
                 <h1>Lumitec</h1>
                 <button onClick={navigateToLumitec}>View All</button>
             </div>
-            <div className='lumishore-container'>
+            <div className='lighting-companys' id='lumishore'>
                 <h1>Lumishore</h1>
                 <button onClick={navigateToLumishore}>View All</button>
             </div>

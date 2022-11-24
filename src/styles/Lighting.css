@@ -1,6 +1,6 @@
 
 
-.lumitec-container{
+.lighting-companys{
     border: solid black;
     height: 400px;
     width: 100vw;
@@ -9,12 +9,7 @@
     align-items: center;
     flex-direction: column;
 }
-.lumishore-container{
-    border: solid black;
-    height: 400px;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+
+#lumitec{
+    background-color: aliceblue;
 }

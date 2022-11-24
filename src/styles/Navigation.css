@@ -1,5 +1,5 @@
 
-.garmin-container{
+.nav-companys{
     border: solid black;
     height: 200px;
     width: 100vw;
@@ -8,30 +8,7 @@
     align-items: center;
     flex-direction: column;
 }
-.simrad-container{
-    border: solid black;
-    height: 200px;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.furuno-container{
-    border: solid black;
-    height: 200px;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.raymarine-container{
-    border: solid black;
-    height: 200px;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+
+#garmin{
+    background-color: aliceblue;
 }

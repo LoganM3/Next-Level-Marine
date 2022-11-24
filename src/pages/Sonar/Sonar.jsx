@@ -20,19 +20,19 @@ function Sonar(){
 
     return(
         <div>
-              <div className='garmin-container'>
+              <div className='sonar-companys'>
                 <h1>Garmin</h1>
                 <button onClick={navigateTogarmin}>View All</button>
             </div>
-            <div className='simrad-container'>
+            <div className='sonar-companys'>
                 <h1>Simrad</h1>
                 <button onClick={navigateTosimrad}>View All</button>
             </div>
-            <div className='furuno-container'>
+            <div className='sonar-companys'>
                 <h1>Furuno</h1>
                 <button onClick={navigateTofuruno}>View All</button>
             </div>
-            <div className='airmar-container'>
+            <div className='sonar-companys'>
                 <h1>AirMar</h1>
                 <button onClick={navigateToairmar}>View All</button>
             </div>

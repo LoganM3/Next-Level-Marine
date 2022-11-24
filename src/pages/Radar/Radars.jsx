@@ -20,19 +20,19 @@ function Radars(){
 
     return(
         <div>
-            <div className='garmin-container'>
+            <div className='nav-companys'>
                 <h1>Garmin</h1>
                 <button onClick={navigateToGarminR}>View All</button>
             </div>
-            <div className='simrad-container'>
+            <div className='nav-companys'>
                 <h1>Simrad</h1>
                 <button onClick={navigateToSimradR}>View All</button>
             </div>
-            <div className='furuno-container'>
+            <div className='nav-companys'>
                 <h1>Furuno</h1>
                 <button onClick={navigateToFurunoR}>View All</button>
             </div>
-            <div className='raymarine-container'>
+            <div className='nav-companys'>
                 <h1>RayMarine</h1>
                 <button onClick={navigateToRayMarineR}>View All</button>
             </div>
