@@ -3,7 +3,7 @@ import '../../styles/Products.css'
 function JL(){
 
     return(
-        <div className="jl-container">
+        <div>
             <div className="product-header" id="jl">
                 <h1>Insert Company Photo Here</h1>
             </div>
