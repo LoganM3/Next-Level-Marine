@@ -47,7 +47,8 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;;
-    padding-bottom: 400px;
+    padding-top:400px;
+    /* padding-bottom: 400px; */
     /* height: 600px; */
 }
 #Roswell{

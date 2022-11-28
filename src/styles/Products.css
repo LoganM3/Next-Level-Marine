@@ -18,3 +18,13 @@
     width: 100vw;
     border: solid black;
 }
+
+#jl-header{
+    background-image: url(/pictures/jlBoat.jpeg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
+    background-repeat: no-repeat;
+    
+}

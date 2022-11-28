@@ -33,71 +33,64 @@
 .cards{
     display: flex;
     justify-content: center;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     flex-wrap: wrap;
     
 }
 
-.audio{
+.catagorys{
     height: 250px;
-    width: 250px;
+    width: 350px;
     border: solid black;
-    background-image: url('/public/speakers.webp');
+    /* background-image: url('/pictures/audio.webp'); */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
-.lighting-card{
-    height: 250px;
-    width: 250px;
-    border: solid black;
-    background-image: url('/public/speakers.webp');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;;
-}
-.nav-card{
-    height: 250px;
-    width: 250px;
-    border: solid black;
-    background-image: url('/public/speakers.webp');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;;
-}
-.com-card{
-    height: 250px;
-    width: 250px;
-    border: solid black;
-    background-image: url('/public/speakers.webp');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;;
-}
-.sonar-card{
+.catagorys2{
     height: 250px;
     width: 609px;
     border: solid black;
-    background-image: url('/public/speakers.webp');
+    /* background-image: url('/pictures/sonar.webp'); */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;;
 }
-.radar-card{
-    height: 250px;
-    width: 609px;
-    border: solid black;
-    background-image: url('/public/speakers.webp');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;;
+
+.catagorys:hover{
+    cursor: pointer;
+}
+
+.catagorys2:hover{
+    cursor: pointer;
+}
+
+#audio{
+    background-image: url('/pictures/audio.webp');
+}
+
+
+#lighting-card{
+    background-image: url('/pictures/lights.jpeg');
+}
+
+#nav-card{
+    background-image: url('/pictures/nav.jpeg');
+}
+
+#com-card{
+    background-image: url('/pictures/com.jpeg');
+}
+
+#sonar-card{
+    background-image: url('/pictures/sonar.webp');
+}
+
+#radar-card{
+    background-image: url('/pictures/radar.webp');
 }
 
 @media only screen  and (max-width:800px){
@@ -105,7 +98,7 @@
         height: 250px;
         width: 100vw;
         border: solid black;
-        background-image: url('/public/speakers.webp');
+        background-image: url('/pictures/audio.webp');
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -125,7 +118,7 @@
         height: 250px;
         width: 100vw;
         border: solid black;
-        background-image: url('/public/speakers.webp');
+        /* background-image: url('/public/speakers.webp'); */
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -135,7 +128,7 @@
         height: 250px;
         width: 100vw;
         border: solid black;
-        background-image: url('/public/speakers.webp');
+        /* background-image: url('/public/speakers.webp'); */
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;

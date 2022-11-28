@@ -40,29 +40,27 @@ function Home(){
         <div className="product-cont">
             <div className="cards">
            
-                <button className='audio' onClick={navigateToAudio}>
-                    {/* <img className="audio" src='speakers.webp'/> */}
+                <button className='catagorys' id='audio' onClick={navigateToAudio}>
                     <h1>Audio</h1>
                 </button>
           
-                <button className='lighting-card' onClick={navigateToLighting}>
-                    {/* <img className="audio" src='speakers.webp'/> */}
+                <button className='catagorys' id='lighting-card' onClick={navigateToLighting}>
                     <h1>Lighting</h1>
                 </button>
           
-                <button className='nav-card' onClick={navigateToNavigation}>
+                <button className='catagorys' id='nav-card' onClick={navigateToNavigation}>
                     <h1>Navigation</h1>
                 </button>
           
-                <button className='com-card' onClick={navigateToComunication}>
-                    <h1>Comunication</h1>
+                <button className='catagorys' id='com-card' onClick={navigateToComunication}>
+                    <h1>Communication</h1>
                 </button>
           
-                <button className='sonar-card' onClick={navigateToSonar}>
+                <button className='catagorys2' id='sonar-card' onClick={navigateToSonar}>
                     <h1>Sonars</h1>
                 </button>
           
-                <button className='radar-card' onClick={navigateToRadars}>
+                <button className='catagorys2' id='radar-card' onClick={navigateToRadars}>
                     <h1>Radars</h1>
                 </button>
           
