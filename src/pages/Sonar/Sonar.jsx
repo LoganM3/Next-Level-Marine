@@ -32,7 +32,7 @@ function Sonar(){
                 <h1>Furuno</h1>
                 <button onClick={navigateTofuruno}>View All</button>
             </div>
-            <div className='sonar-companys'>
+            <div className='sonar-companys' id='airmar'>
                 <h1>AirMar</h1>
                 <button onClick={navigateToairmar}>View All</button>
             </div>

@@ -28,7 +28,7 @@ function Navigation(){
                 <h1>Simrad</h1>
                 <button onClick={navigateToSimrad}>View All</button>
             </div>
-            <div className='nav-companys' id='simrad'>
+            <div className='nav-companys' id='furuno'>
                 <h1>Furuno</h1>
                 <button onClick={navigateToFuruno}>View All</button>
             </div>
