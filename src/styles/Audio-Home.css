@@ -19,8 +19,10 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;;
-    /* height: 600px; */
     
+}
+#JL:hover{
+    transform: translate3D(0,-1px,0) scale(1.03);
 }
 
 #Fusion{

@@ -62,10 +62,12 @@
 
 .catagorys:hover{
     cursor: pointer;
+    transform: translate3D(0,-1px,0) scale(1.03);
 }
 
 .catagorys2:hover{
     cursor: pointer;
+    transform: translate3D(0,-1px,0) scale(1.03);
 }
 
 #audio{
