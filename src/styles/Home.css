@@ -47,6 +47,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    color: white;
 }
 
 .catagorys2{
@@ -58,6 +59,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;;
+    color: white;
 }
 
 .catagorys:hover{

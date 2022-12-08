@@ -28,3 +28,14 @@
     background-repeat: no-repeat;
     
 }
+
+.productCards{
+    height: fit-content;
+    width: 200px;
+    border: black solid;
+}
+
+.Name{
+    font-weight: bold;
+    color: blue;
+}
