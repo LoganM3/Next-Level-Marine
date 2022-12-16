@@ -30,7 +30,7 @@ function JL(){
                 <ul className="product-container">
             {speakers.map(jlSpeakers => (
                 <div key={jlSpeakers.id} className="productCards">
-                         {/* {jlSpeakers.profilePic && <img className="profilePic"  src={jlSpeakers.profilePic} width={300} />} */}
+                          {jlSpeakers.img && <img className="productPic"  src={jlSpeakers.img} width={300} />} 
                          <div className="text-area">
                          <div className="Name">
                          {jlSpeakers.name}
