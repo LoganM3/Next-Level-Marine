@@ -21,6 +21,10 @@ function JL(){
         )
       }
 
+      const handleAddToCart = () => {
+        onAddToCart(jlSpeakers.id, 1);
+      }
+
 
     return(
         <div>
@@ -42,7 +46,7 @@ function JL(){
                          <br/>
                          ${jlSpeakers.price}
                         </div>
-                        <button>Add to cart</button>
+                        <button onClick={handleAddToCart}>Add to cart</button>
                 </div>
             ))}
         </ul>

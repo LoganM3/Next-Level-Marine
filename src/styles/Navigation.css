@@ -12,3 +12,40 @@
 #garmin{
     background-color: aliceblue;
 }
+
+#garmin{
+    background-image: url('../../pictures/garmin.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;;
+    background-repeat: no-repeat;
+   
+}
+
+#simrad{
+    background-image: url('../../pictures/simrad.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
+    background-color: black;
+}
+#furuno{
+    background-image: url('../../pictures/furuno.webp');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;;
+    background-repeat: no-repeat;
+    /* background-color: black; */
+}
+#raymarine{
+    background-image: url('../../pictures/raymarine.jpeg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
+    background-repeat: no-repeat;
+   
+}

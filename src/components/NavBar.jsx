@@ -1,5 +1,7 @@
 import Nav from 'react-bootstrap/Nav'
 import { Link } from "react-router-dom"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {faShoppingCart} from "@fortawesome/free-solid-svg-icons"
 import '../styles/nav.css'
 
 
@@ -30,7 +32,7 @@ function NavBar(){
                 <Nav.Link as={Link} to='/Contact'>Contact us</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <button className='nav-btn'>(561)-301-6062</button>
+                <Nav.Link as={Link} to='/cart'> <FontAwesomeIcon icon={faShoppingCart} size="2x"/></Nav.Link>
             </Nav.Item>
             </Nav>
             </div>
